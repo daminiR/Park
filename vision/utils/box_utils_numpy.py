@@ -1,4 +1,4 @@
-from .box_utils import SSDSpec
+from box_utils import SSDSpec
 
 from typing import List
 import itertools

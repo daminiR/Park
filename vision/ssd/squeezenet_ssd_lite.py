@@ -2,8 +2,8 @@ import torch
 from torch.nn import Conv2d, Sequential, ModuleList, ReLU
 from ..nn.squeezenet import squeezenet1_1
 
-from .ssd import SSD
-from .predictor import Predictor
+from ssd import SSD
+from predictor import Predictor
 from .config import squeezenet_ssd_config as config
 
 
